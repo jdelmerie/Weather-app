@@ -1,0 +1,106 @@
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+body {
+  background-image: url("img/weather.jpg");
+}
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#dashboard {
+  background-color: #034ca0;
+  height: 250px;
+  text-align: center;
+  justify-content: center;
+}
+
+#weather {
+  background-color: #ffffff;
+}
+
+#dashboard h1 {
+  text-align: center;
+  justify-content: center;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+#whichTown {
+  width: 300px;
+  height: 30px;
+}
+
+.flex {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectTown {
+  margin: 10px auto;
+  width: 500px;
+  justify-content: center;
+}
+
+#icon img {
+  width: 40px;
+  height: 40px;
+}
+
+#ville {
+  background-color: rgb(218, 218, 218);
+  border: 1px solid rgba(250, 250, 250, 0.253);
+  padding: 30px 10px;
+  height: 100px;
+  align-items: center;
+  display: flex;
+}
+
+#info {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+th {
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+td {
+  width: 300px;
+  height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+#infoFooter {
+  border: 1px solid rgb(228, 228, 228);
+}
+
+#infoFooter {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  font-size: 12px;
+}
+
+#separate {
+  height: 50px;
+}
+
+#icons {
+  font-size: 50px;
+}
